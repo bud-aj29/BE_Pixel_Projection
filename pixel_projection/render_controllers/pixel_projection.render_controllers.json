@@ -1,0 +1,11 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.pixel_projection": {
+      "geometry": "geometry.pixel_projection",
+      "materials": [ { "*": "material.pixel_projection" } ],
+      "textures": [ "texture.pixel_projection" ],
+      "ignore_lighting":true
+    }
+  }
+}

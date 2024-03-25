@@ -1,0 +1,29 @@
+{
+  "format_version":"1.8.0",
+  "animations":{
+    "animation.pixel_projection":{
+      "loop":true,
+      "bones":{
+        "static_pivot":{
+          "rotation":[
+            0,
+            "-query.body_y_rotation",
+            0
+          ]
+        },
+        "static":{
+          "rotation":[
+            0,
+            "-180 + (query.cardinal_facing_2d * 90)",
+            0
+          ],
+          "position":[
+            "8 -(query.position(0)- 0)*16",
+            "(-60 -query.position(1))*16",
+            "-8 +(query.position(2)- 0)*16"
+          ]
+        }
+      }
+    }
+  }
+}

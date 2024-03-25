@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:armor_stand",
+      "min_engine_version": "1.8.0",
+      "materials": {
+	"pixel_projection": "entity_alphablend"
+      },
+      "textures": {
+        "pixel_projection": "textures/pixel_projection"
+      },
+      "geometry": {
+        "pixel_projection": "geometry.pixel_projection"
+      },
+      "animations": {
+        "pixel_projection": "animation.pixel_projection"
+      },
+      "scripts": {
+        "animate": [
+          "controller.pose",
+          "controller.wiggling",
+	  "pixel_projection"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.armor_stand",
+        "controller.render.pixel_projection"
+      ]
+    }
+  }
+}
