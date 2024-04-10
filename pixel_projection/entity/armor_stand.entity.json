@@ -20,11 +20,13 @@
         "animate": [
           "controller.pose",
           "controller.wiggling",
+	  "scale",
 	  "pixel_projection"
         ]
       },
       "render_controllers": [
         "controller.render.armor_stand",
+	"controller.render.armor_stand.ghost_blocks",
         "controller.render.pixel_projection"
       ]
     }
