@@ -5,7 +5,7 @@ from tkinter import messagebox
 import tkinter.ttk as ttk
 import numpy as np
 import cv2
-import json
+import ujson as json
 import uuid
 import os
 import shutil

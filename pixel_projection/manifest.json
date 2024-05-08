@@ -3,11 +3,11 @@
   "header":{
     "description":"Project image pixels onto blocks",
     "name":"grass_png: Pixel_Projection",
-    "uuid":"03115b19-35a7-42e1-bbb9-2da661376370",
+    "uuid":"805b4228-30bd-4f68-890f-b28deb307fb1",
     "version":[
       0,
       0,
-      3
+      4
     ],
     "min_engine_version":[
       1,
@@ -19,7 +19,7 @@
     {
       "description":"",
       "type":"resources",
-      "uuid":"8b025476-57a6-493d-9d90-b9c05d2cec0c",
+      "uuid":"31b6cf67-7e9f-4b69-ba8d-9ad49e32e636",
       "version":[
         0,
         0,
