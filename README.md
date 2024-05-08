@@ -1,4 +1,4 @@
-- Last tested 1.20.60
+- Last tested 1.20.80
 - This program creates resource packs that project image pixels onto block geometry for building Minecraft pixel art
 - v0.0.4 changes:
   - Changed to ujson library for speed improvement
